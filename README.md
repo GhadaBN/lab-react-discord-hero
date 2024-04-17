@@ -1,23 +1,23 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# LAB | React Discord Hero
+# LAB | React Discord Hero 1
 
 <details>
   <summary>
    <h2>Learning Goals</h2>
   </summary>
 
-  This exercise allows you to practice and apply the concepts and techniques taught in class. 
+This exercise allows you to practice and apply the concepts and techniques taught in class.
 
-  Upon completion of this exercise, you will be able to:
+Upon completion of this exercise, you will be able to:
 
-  - Set up a new React app and run it in development mode.
-  - Create and render a React function component.
-  - Use JSX to render content within a React component.
-  - Import and render images in a React component.
+- Set up a new React app and run it in development mode.
+- Create and render a React function component.
+- Use JSX to render content within a React component.
+- Import and render images in a React component.
 
   <br>
-  <hr> 
+  <hr>
 
 </details>
 
@@ -56,11 +56,9 @@ We just learned the basics of React, JSX and how to set up a new React app using
 
 Let's get this party started! First, you will need to create a new React app.
 
-Navigate to the root folder of the LAB. When you're in the root folder, use Vite (`vite`) to create a new React project. 
+Navigate to the root folder of the LAB. When you're in the root folder, use Vite (`vite`) to create a new React project.
 
 Once you have created the app, navigate to the root folder of the app. From here, run the app in development mode and open it in the browser.
-
-
 
 If you need help recalling which command to run, you can refer to the previous lesson or consult the Vite Documentation here: [Vite - Getting Started](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
@@ -72,12 +70,10 @@ Now that you have created the app update the `App.jsx` file and remove the conte
 
 ```jsx
 // src/App.jsx
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App"></div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
@@ -89,18 +85,18 @@ export default App;
 
 To make it the page look as authentic as possible, we'll use fonts similar to the ones Discord uses:
 
-**Headings** - *Poppins - Black 900* ([preview](https://fonts.google.com/specimen/Poppins?preview.text=IMAGINE%20A%20PLACE&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
+**Headings** - _Poppins - Black 900_ ([preview](https://fonts.google.com/specimen/Poppins?preview.text=IMAGINE%20A%20PLACE&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
 
 ```css
-font-family: 'Poppins', sans-serif;
+font-family: "Poppins", sans-serif;
 ```
 
 <br>
 
-**Paragraphs & Text** - *Roboto - Regular 400, Regular 500* ([preview](https://fonts.google.com/specimen/Roboto?preview.text=...where%20you%20can%20belong%20to%20a%20school%20club,%20a%20gaming%20group,&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
+**Paragraphs & Text** - _Roboto - Regular 400, Regular 500_ ([preview](https://fonts.google.com/specimen/Roboto?preview.text=...where%20you%20can%20belong%20to%20a%20school%20club,%20a%20gaming%20group,&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
 
 ```css
-font-family: 'Roboto', sans-serif;
+font-family: "Roboto", sans-serif;
 ```
 
 <br>
@@ -110,11 +106,13 @@ font-family: 'Roboto', sans-serif;
 To load these fonts, add the following code into the `<head>` tag of your `index.html` page:
 
 ```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap"
+  rel="stylesheet"
+/>
 ```
-
 
 <br>
 
@@ -155,7 +153,6 @@ https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page
 
 <br>
 
-
 <hr>
 
 </details>
@@ -166,7 +163,6 @@ https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page
 ### Iteration 5 | Landing Page
 
 Finally, you can start working on the landing page. Using the assets that you downloaded in the previous iteration, recreate the hero section of Discord's landing page as shown below:
-
 
 <details>
   <summary>Click here to see the image</summary>
@@ -191,21 +187,20 @@ For now, don't worry about creating more than one component, we will cover that 
 
 ## FAQs
 
-
 <details>
   <summary>I am stuck and don't know how to solve the problem or where to start. What should I do?</summary>
 
   <br>
 
-  If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
+If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
 
-  For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
+For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources.
 
-  Once you have a clear understanding of the problem, you will be able to start working toward the solution.
+Once you have a clear understanding of the problem, you will be able to start working toward the solution.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -214,31 +209,31 @@ For now, don't worry about creating more than one component, we will cover that 
 
   <br>
 
-  The error "Cannot find module" in a Node.js application means that the module you are trying to import or use does not exist in your project or cannot be found by Node.js.
+The error "Cannot find module" in a Node.js application means that the module you are trying to import or use does not exist in your project or cannot be found by Node.js.
 
-  There are a few things you can try to resolve the issue:
+There are a few things you can try to resolve the issue:
 
-  1. **Dependencies are not installed**: Make sure that all dependencies are installed.
-   
-   To do this, run the command `npm install` in the root folder of your project.
+1. **Dependencies are not installed**: Make sure that all dependencies are installed.
 
-   This will install all of the dependencies listed in the project's `package.json` file, and ensure that all of the modules that your Node'js application requires are available.
+To do this, run the command `npm install` in the root folder of your project.
 
-  2. **Module is not installed**: Make sure that the *package* you are trying to use is listed in the project's `package.json` and that it is installed.
+This will install all of the dependencies listed in the project's `package.json` file, and ensure that all of the modules that your Node'js application requires are available.
 
-   To do this, run the command `npm install <package_name>`, replacing the `<package_name>` with the name of the package.
+2. **Module is not installed**: Make sure that the _package_ you are trying to use is listed in the project's `package.json` and that it is installed.
 
-   This will add the package to the list of dependencies in the `package.json` file, and install it in the project.
+To do this, run the command `npm install <package_name>`, replacing the `<package_name>` with the name of the package.
 
-  3. **Module is not imported:** Make sure that you've imported the module/package correctly and that the `import` statement is spelled correctly and available in the correct place in your code.
+This will add the package to the list of dependencies in the `package.json` file, and install it in the project.
 
-  4. **Wrong file path:** If you are importing another file as a module, make sure that the file you are trying to *import* is located in the correct folder and that you are using the correct file path.
+3. **Module is not imported:** Make sure that you've imported the module/package correctly and that the `import` statement is spelled correctly and available in the correct place in your code.
 
-  5. **Wrong module/package name:** Check the spelling of the package name you are trying to import.
+4. **Wrong file path:** If you are importing another file as a module, make sure that the file you are trying to _import_ is located in the correct folder and that you are using the correct file path.
+
+5. **Wrong module/package name:** Check the spelling of the package name you are trying to import.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -247,13 +242,13 @@ For now, don't worry about creating more than one component, we will cover that 
 
   <br>
 
-  This message means that another process is already using the specified port. This could be another instance of your React app, or it could be another application that is using that port.
-  To resolve this, you can change the port your React app is running on by typing Y when prompted. This will kill the process and automatically start the server on another port.
-  Another approach is to manually terminate the process using the port in question and then try running the app again.
+This message means that another process is already using the specified port. This could be another instance of your React app, or it could be another application that is using that port.
+To resolve this, you can change the port your React app is running on by typing Y when prompted. This will kill the process and automatically start the server on another port.
+Another approach is to manually terminate the process using the port in question and then try running the app again.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -262,25 +257,25 @@ For now, don't worry about creating more than one component, we will cover that 
 
   <br>
 
-  To display an image in a React component, you should first `import` the image in the component and then render it. Here is an example of how to do this:
+To display an image in a React component, you should first `import` the image in the component and then render it. Here is an example of how to do this:
 
-  ```jsx
-  import example from "./example.png"; // Import the image file
+```jsx
+import example from "./example.png"; // Import the image file
 
-  function App() {
-    return (
-      <img src={example} alt="example" /> // Display the image
-    )
-  }
+function App() {
+  return (
+    <img src={example} alt="example" /> // Display the image
+  );
+}
 
-  export default App;
-  ```
+export default App;
+```
 
-  In the above example, the `example` variable is assigned the value of the imported image file. The image is then displayed using the `<img>` element, with the `src` attribute set to the `example` variable.
+In the above example, the `example` variable is assigned the value of the imported image file. The image is then displayed using the `<img>` element, with the `src` attribute set to the `example` variable.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -289,11 +284,11 @@ For now, don't worry about creating more than one component, we will cover that 
 
   <br>
 
-  The images for your React project should be stored inside the `src/` folder. To keep things organized you should create a separate `assets/` or `images/` directory inside of the `src/` folder.
+The images for your React project should be stored inside the `src/` folder. To keep things organized you should create a separate `assets/` or `images/` directory inside of the `src/` folder.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -304,11 +299,11 @@ For now, don't worry about creating more than one component, we will cover that 
   
   This warning is a linting error thrown by a linting tool in your React project, and it is warning you that the variable is created, but that it is never being used in your code.
 
-  To resolve this issue, you can either use the variable in your code, or you can simply remove the variable if you don't need it.
+To resolve this issue, you can either use the variable in your code, or you can simply remove the variable if you don't need it.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -317,15 +312,15 @@ For now, don't worry about creating more than one component, we will cover that 
 
   <br>
 
-  The "ReferenceError: variable is not defined" error in JavaScript occurs when you try to access a variable or a function that has not been defined yet or is out of scope. 
+The "ReferenceError: variable is not defined" error in JavaScript occurs when you try to access a variable or a function that has not been defined yet or is out of scope.
 
-  To fix the issue, check that you have defined the variable or function that you are trying to use and double-check the spelling to make sure you are using the correct name.
+To fix the issue, check that you have defined the variable or function that you are trying to use and double-check the spelling to make sure you are using the correct name.
 
-  In case the variable or a function is defined in another file, make sure that the file has been imported or loaded correctly.
+In case the variable or a function is defined in another file, make sure that the file has been imported or loaded correctly.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
 
@@ -334,29 +329,29 @@ For now, don't worry about creating more than one component, we will cover that 
 
   <br>
 
-  There are a couple of possible reasons why you may be unable to *push* changes to a Git repository:
+There are a couple of possible reasons why you may be unable to _push_ changes to a Git repository:
 
-  1. **You have not committed your changes:** Before you can push your changes to the repository, you need to commit them using the `git commit` command. Make sure you have committed your changes and try pushing again. To do this, run the following terminal commands from the project folder:
+1. **You have not committed your changes:** Before you can push your changes to the repository, you need to commit them using the `git commit` command. Make sure you have committed your changes and try pushing again. To do this, run the following terminal commands from the project folder:
 
-   ```bash
-   git add .
-   git commit -m "Your commit message"
-   git push
-   ```
+```bash
+git add .
+git commit -m "Your commit message"
+git push
+```
 
-   2. **You do not have permission to push to the repository:** If you have cloned the repository directly from the main Ironhack repository without making a *Fork* first, you do not have write access to the repository.
-   To check which remote repository you have cloned, run the following terminal command from the project folder:
+2.  **You do not have permission to push to the repository:** If you have cloned the repository directly from the main Ironhack repository without making a _Fork_ first, you do not have write access to the repository.
+    To check which remote repository you have cloned, run the following terminal command from the project folder:
 
-   ```bash
-   git remote -v
-   ```
+```bash
+git remote -v
+```
 
-  If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first, and then clone your fork to your local machine to be able to push the changes.
+If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first, and then clone your fork to your local machine to be able to push the changes.
 
-  Note: You may want to make a copy of the code you have locally, to avoid losing it in the process.
+Note: You may want to make a copy of the code you have locally, to avoid losing it in the process.
 
   <br>
 
-  [Back to top](#faqs)
+[Back to top](#faqs)
 
 </details>
