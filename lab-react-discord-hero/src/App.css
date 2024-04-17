@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+}
+
+.menu {
+  width: 50px;
+}
+
+.intro {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  line-height: 100%;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  width: 300px;
+  text-align: left;
+}
+
+.hero-image {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.text {
+  width: 400px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.first-button {
+  display: block;
+  border-radius: 25px;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 12rem;
+  height: 3rem;
+  font-size: 16px;
+}
+
+.second-button {
+  margin-top: 1rem;
+  display: block;
+  border-radius: 25px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(36, 36, 36);
+  width: 18rem;
+  height: 3rem;
+  font-size: 16px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
